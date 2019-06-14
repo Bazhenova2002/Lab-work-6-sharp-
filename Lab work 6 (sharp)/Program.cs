@@ -20,7 +20,7 @@ namespace ConsoleApplication1
 
             void write(object num)
             {
-                StreamWriter writer = new StreamWriter(@"C:\Users\VUser\source\repos\C_Sharp\Lab6\Lab6\test.txt");
+                StreamWriter writer = new StreamWriter(@"C:\Users\source\repos\Lab work 6 (sharp)\Lab work 6 (sharp)\test.txt");
                 Random random = new Random();
                 for (int i = 0; i < (int)num; i++)
                 {
@@ -48,7 +48,7 @@ namespace ConsoleApplication1
 
             void read(object num)
             {
-                StreamReader reader = new StreamReader(@"C:\Users\VUser\source\repos\C_Sharp\Lab6\Lab6\test.txt");
+                StreamReader reader = new StreamReader(@"C:\Users\source\repos\Lab work 6 (sharp)\Lab work 6 (sharp)\test.txt");
                 for (int i = 0; i < (int)num; i++)
                 {
                     Console.WriteLine(reader.ReadLine());
